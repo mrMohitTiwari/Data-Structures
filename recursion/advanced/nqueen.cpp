@@ -11,6 +11,7 @@ bool vaild(int k[] ,int l ){
 
 
 }
+// returning the function
 void nqueen(int k){
         for(int i =0;i<k;i++)
         {}
