@@ -64,10 +64,18 @@ void print(Node *head)
     }
     cout<<"End of LL\n";
 }
-
+// length function
+int length(Node *head)
+{
+    Node *temp = head;int count=0;
+    while(temp){count++;
+    temp =temp->next;}
+return count;
+}
 int main() {
 Node *head1 =inputFromTail();
 print(head1);
+cout<<"Length of LL is "<<length(head1)<<"\n";
 Node *head2 =inputFromHead();
 print(head2);
     return 0;
