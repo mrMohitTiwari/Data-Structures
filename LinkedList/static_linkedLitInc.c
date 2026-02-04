@@ -18,20 +18,20 @@ void Print(Node *head)
 }
 int main()
 {
-Node n1;
-//     Node n1;
-//         n1.data = 12;
-    
-//     Node n2;
-//         n2.data = 23;
 
-//     Node n3;
-//         n3.data = 24;
-// n1.next=&n2;
-// n2.next=&n3;
-// n3.next=NULL;
-//     Node *head = &n1;
-//     Print(head);
-//     Print(head);
+    Node n1;
+        n1.data = 12;
+    
+    Node n2;
+        n2.data = 23;
+
+    Node n3;
+        n3.data = 24;
+n1.next=&n2;
+n2.next=&n3;
+n3.next=NULL;
+    Node *head = &n1;
+    Print(head);
+    Print(head);
 
 }
