@@ -13,7 +13,7 @@ Node *input()
 
     while (data != -1)
     {
-        // create a fresh node
+///taking memory in heap and accessing it using pointer name n
         Node *n = (Node *)malloc(sizeof(Node));
         n->data = data;
         // if no item added yet
@@ -29,6 +29,7 @@ Node *input()
         }
         scanf("%d", &data);
     }
+    tail->next=NULL;
     return head;
 }
 void Print(Node *head)
