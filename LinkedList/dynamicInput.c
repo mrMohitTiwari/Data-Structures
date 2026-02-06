@@ -8,6 +8,7 @@ typedef struct Node
 Node *input()
 {
     int data;
+
     scanf("%d", &data);
     Node *head = NULL, *tail = NULL;
 
