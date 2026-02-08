@@ -15,6 +15,7 @@ public:
 // it will return head of the Linked List
 Node *inputFromTail()
 {
+    // taking the items
     cout << "give the List Item\n";
 
     int data;
@@ -23,7 +24,7 @@ Node *inputFromTail()
     Node *head = NULL, *tail = NULL;
     while (data != -1)
     {
-        Node *n = new Node(data);
+        Node *n = new Node(data);   
         if (head == NULL)
         {
             head = n;
