@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mohit/Desktop/DSA/bit_manupilation/countSetBit'
+relocations:     []
+...
