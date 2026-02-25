@@ -9,6 +9,8 @@ int multiply(int n ,int k)
 }
 int main() {
     
+    cout<<multiply(2,3);
     cout<<multiply(2,3); 
+    cout<<multiply(2,3); s
     return 0;
 }
