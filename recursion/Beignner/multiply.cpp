@@ -14,5 +14,8 @@ int main() {
     cout<<multiply(2,3); 
     cout<<multiply(2,3); 
     cout<<multiply(2,3); 
+    cout<<multiply(2,3); 
+    cout<<multiply(2,3); 
+    cout<<multiply(2,3); 
     return 0;
 }
