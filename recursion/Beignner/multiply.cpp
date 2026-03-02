@@ -8,10 +8,7 @@ int multiply(int n ,int k)
     return n+multiply(n,k-1);
 }
 int main() {
-    
-    cout<<multiply(2,3);
-    cout<<multiply(2,3); 
-    cout<<multiply(2,3); 
+
   
     return 0;
 }
