@@ -22,11 +22,12 @@ int maxSubArrLen(vector<int>& nums,int k)
             else break;
         }
     }
-    return ml;
+    return ms;
 }
 // brute force
+// 
 int main() {
-    vector<int> v = {2, -1, 2, -1, 2};
+    vector<int> v = {-2,1,-3,4,-1,2,1,-5,4};
 
     cout<<maxSubArrLen(v,3);
     return 0;
