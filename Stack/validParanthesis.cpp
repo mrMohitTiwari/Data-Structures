@@ -4,6 +4,7 @@ using namespace std;
 
 bool isValidParenthesis(string st)
 {
+    // creating the stack
     stack<char> s;
 
     for (int i = 0; i < st.size(); i++)
