@@ -5,23 +5,24 @@ using namespace std;
 int main() {
     int t;
     cin>>t;
-    // precomputation of Primes
-    vector<int> isPrime(1000000,1);
-    isPrime[0] = isPrime[1] =0;
-
+ 
 
     while(t--){
         int n ;
         cin>>n;
             int i =3; int prev = 2;
+            --n;
             cout<<prev<<" ";
             while(n){
-                    if(isPrime[i]) {
+                  
                         cout<<prev*i<<" ";
                             prev = i;
+                            i+=2;
                             --n;
-                    }
+                    
+                 
             }
+            cout<<"\n";
 
     }
     return 0;

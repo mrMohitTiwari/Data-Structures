@@ -116,7 +116,7 @@ tree.displayLeaves();
 
 // Insert 5 new data points
 [505, 515, 525, 535, 545].forEach(x => tree.insert(x));
-console.log("After Insertion:");
+console.log("After Insertion of [505, 515, 525, 535, 545]:");
 tree.display();
 tree.displayLeaves();
 
