@@ -15,10 +15,7 @@ int main()
             continue;
         }
         int opr = 0;
-        // if(a && a<x && b<x &&b){
-        //     cout<<2<<'\n';
-        //     continue;
-        // }
+       
         while (a != b)
         {
 
