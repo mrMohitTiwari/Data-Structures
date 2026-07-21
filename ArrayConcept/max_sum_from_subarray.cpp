@@ -16,11 +16,27 @@ int max_sum_from_subarray(vector<int> &a ){
     }
     return max_sum;
 }
+// using prefix sum 
+int prefix_sum(vector<int> &a)
+{
+    int n =a.size();
+    // calculating the prefix sum 
+    vector<int> pf(n,0);
+    pf[0] = a[0];
+    for(int i =1;i<n;i++)
+    {
+        pf[i] = pf[i-1]+a[i];
+    }
+    int maxi = pf[0];
+    for(int i =1;i<n;i++) maxi = max(maxi,pf[i]);
+    return maxi;
+}
 int main() {
     int n ;
     cin>>n;
     vector<int> a(n);
     for(int i =0;i<n;i++) cin>>a[i];
-    cout<<max_sum_from_subarray(a);
+    cout<<max_sum_from_subarray(a)<<"\n";
+    cout<<prefix_sum(a)<<"\n";
     return 0;
 }
