@@ -65,5 +65,6 @@ int main()
 {
     node* head = input();
     print(head);
+    cout<<(head->data);
     return 0;
 }
