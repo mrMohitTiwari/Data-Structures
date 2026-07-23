@@ -25,7 +25,7 @@ Node* inputFromTail(){
             head = n;
             tail =n;
         }else{
-          
+
             tail->next =n;
             tail=n;
         }
